@@ -48,7 +48,7 @@ var j = schedule.scheduleJob('*/5 * * *', function() {
 
                 console.log('Sending'+data);
                 let start3282=data.indexOf('3282')+211;
-                let start4029=data.indexOf('4029')+211;
+                let start4029=data.indexOf('8197')+211;
                 let positions3282=data.substring(start3282, start3282+3);
                 let positions3029=data.substring(start4029, start4029+3);
 
